@@ -1,10 +1,6 @@
 #author: LM (AMDG) 1/14/22
 
 def smash(lst):
-    new_sentence = ""
-    for index, value in enumerate(lst):
-        index
-        print(new_sentence)
+    print(''.join(lst))
 
-smash(['my', 'name', 'is', 'luis'])
-        
+smash(['my ', 'name ', 'is', ' luis'])
